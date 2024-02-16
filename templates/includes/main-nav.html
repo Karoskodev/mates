@@ -17,10 +17,10 @@
                 Chess Sets and Pieces
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="boards-link">
-                <a href="" class="dropdown-item">Chess Sets</a>
-                <a href="" class="dropdown-item">Chess Boards</a>
-                <a href="" class="dropdown-item">Chess Pieces</a>
-                <a href="" class="dropdown-item">All Sets and Pieces</a>
+                <a href="{% url 'products' %}?category=chess_sets" class="dropdown-item">Chess Sets</a>
+                <a href="{% url 'products' %}?category=chess_boards" class="dropdown-item">Chess Boards</a>
+                <a href="{% url 'products' %}?category=chess_pieces" class="dropdown-item">Chess Pieces</a>
+                <a href="{% url 'products' %}?category=chess_sets,chess_boards,chess_pieces" class="dropdown-item">All Sets and Pieces</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Chess Clocks
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="pawns-link">
-                <a href="" class="dropdown-item">Digital Chess Clocks</a>
-                <a href="" class="dropdown-item">Analog Chess Clocks</a>
-                <a href="" class="dropdown-item">All Clocks</a>
+                <a href="{% url 'products' %}?category=digital_chess_clocks" class="dropdown-item">Digital Chess Clocks</a>
+                <a href="{% url 'products' %}?category=analog_chess_clocks" class="dropdown-item">Analog Chess Clocks</a>
+                <a href="{% url 'products' %}?category=digital_chess_clocks,analog_chess_clocks" class="dropdown-item">All Clocks</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
