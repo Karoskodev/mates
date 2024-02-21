@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
 from .forms import OrderForm
@@ -6,6 +7,23 @@ from .models import Order, OrderLineItem
 from products.models import Product
 from bag.contexts import bag_contents
 import stripe
+import json
+
+@require_POST
+def cache_checkout_data(request):
+    try:
+        pid = request.POST.get('client_secret').split('_secret')[0]
+        stripe.api_key = settings.STRIPE_SECRET_KEY
+        stripe.PaymentIntent.modify(pid, metadata={
+            'bag': json.dumps(request.session.get('bag', {})),
+            'save_info': request.POST.get('save_info'),
+            'username': request.user,
+        })
+        return HttpResponse(status=200)
+    except Exception as e:
+        messages.error(request, 'Sorry, your payment cannot be \
+            processed right now. Please try again later.')
+        return HttpResponse(content=e, status=400)
 
 
 def checkout(request):
@@ -50,11 +68,11 @@ def checkout(request):
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
-            messages.error(request, 'tThere was an error with your form.')
+            messages.error(request, 'There was an error with your form.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            message.error(request, "There is nothing in your bag")
+            messages.error(request, "There is nothing in your bag")
             return redirect(reverse('products'))
 
         current_bag = bag_contents(request)
