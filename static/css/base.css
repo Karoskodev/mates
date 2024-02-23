@@ -106,6 +106,17 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+input[name='q']::placeholder {
+    color: #aab7c4;
+}
+
 /* --------------------------------- toasts*/
 
 .message-container {
@@ -262,3 +273,4 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+
