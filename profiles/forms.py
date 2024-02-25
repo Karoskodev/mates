@@ -42,3 +42,24 @@ class UserProfileForm(forms.ModelForm):
                 self.fields[field].widget.attrs['tags'] = 'your_tags_for_user_title'
 
             self.fields[field].label = False     
+
+
+class UpdateUserForm(forms.ModelForm):
+    class Meta:
+        model = UserProfile
+        fields = (
+            'user_image',
+            'user_title',
+            'user_nickname',
+        ) 
+
+    def __init__(self, *args, **kwargs):
+        
+        super().__init__(*args, **kwargs)
+        placeholders = {
+            'user_title': 'Title',
+            'user_image': 'Image' ,
+        }
+        
+        for field_name, placeholder in placeholders.items():
+            self.fields[field_name].widget.attrs["placeholder"] = placeholder

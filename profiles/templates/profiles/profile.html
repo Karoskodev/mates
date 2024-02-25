@@ -23,8 +23,8 @@
                 <hr>
                 <p class="text-muted">User Image</p>
                 <div class="text-center mt-3" id="profile-img">
-                    {% if user.userprofile.profile_picture %}
-                    <img src="{{ user.userprofile.profile_picture.url }}"
+                    {% if user.userprofile.user_image %}
+                    <img src="{{ user.userprofile.user_image.url }}"
                         class="rounded-circle img-fluid responsive-profile-img" alt="Profile Picture">
                     {% else %}
                     <img src="{% static 'images/profile.png' %}"
@@ -36,8 +36,8 @@
                 <div class="col-12 col-md-6 col-lg-4 mb-5">
                     <div class="order-history table-responsive">
                         <p><strong>Nickname</strong> {{ request.user.userprofile.user_nickname }}</p>
-                        <p><strong>Title:</strong> {{ request.user.user_title }}</p>
-                        <a href="" class="btn btn-black rounded-0 text-uppercase"><i class="fas fa-user-edit"></i> Update User</a>
+                        <p><strong>Title:</strong> {{ request.user.userprofile.user_title }}</p>
+                        <a href="{% url 'update_profile' %}" class="btn btn-black rounded-0 text-uppercase"><i class="fas fa-user-edit"></i> Update User</a>
                     </div>
                 </div>
             </div>

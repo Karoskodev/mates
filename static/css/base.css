@@ -113,6 +113,13 @@ a.category-badge > span.badge:hover {
     object-fit: cover;
 }
 
+#pic_logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 input[name='q']::placeholder {
     color: #aab7c4;
 }
