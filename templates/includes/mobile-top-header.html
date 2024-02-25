@@ -1,3 +1,5 @@
+{% load static %}
+
 <li class="list-inline-item">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
@@ -24,14 +26,14 @@
     <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             {% if request.user.is_authenticated %}
-            {% if user.userprofile.user_image %}
-            <img src="{{ user.userprofile.user_image.url }}" class="rounded-circle img-fluid responsive-profile-img"
-                id="pic_logo" alt="Profile Picture">
+                {% if user.userprofile.user_image %}
+                    <img src="{{ user.userprofile.user_image.url }}" class="rounded-circle img-fluid responsive-profile-img pic_logo" alt="Profile Picture">
+                {% else %}
+                    <img src="{% static 'images/profile.png' %}"
+                    class="rounded-circle img-fluid responsive-profile-img pic_logo" alt="Default Profile Picture">
+                {% endif %}
             {% else %}
-            <i class="fas fa-user fa-lg"></i>
-            {% endif %}
-            {% else %}
-            <i class="fas fa-user fa-lg"></i>
+                <i class="fas fa-user fa-lg"></i>
             {% endif %}
             <p class="my-0">My Account</p>
         </div>
