@@ -36,7 +36,7 @@
 }
 
 .masthead-text {
-    background-color: rgba(29, 18, 12, 0.95);
+    background-color: rgba(29, 18, 12, 1);
     color: white;
     position: relative;
 }
@@ -54,7 +54,7 @@
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #445261;
+    background: rgba(29, 18, 12, 1);
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
