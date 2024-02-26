@@ -1,0 +1,10 @@
+.post-link:hover {  
+    color: #24190b; 
+    transition: color 1.5s ease;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #ffffff; 
+    
+}
