@@ -32,11 +32,11 @@
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
                                 <img class="card-img-top"
-                                    src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
+                                src="{{ MEDIA_URL }}kings.png" alt="{{ post.title }}">
                                 {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
-                                <a href="#" class="post-link">
+                                <a href="{% url 'post_detail' post.slug %}" class="post-link">
                                     <h2 class="card-textt text-muted text-black text-center text-uppercase">{{ post.title }}</h2>
                                 </a>
                                 <hr>
