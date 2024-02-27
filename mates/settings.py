@@ -21,10 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-08f065*v+yh#l$vp+2nmrf#jcsrmfl4hzgb8rqt6v2!2*agobg'
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-karoskodev-mates-p2iz24bdqut.ws-eu108.gitpod.io', 'matesapp.herokuapp.com', 'localhost', 'matesapp-6452160599de.herokuapp.com']
 
