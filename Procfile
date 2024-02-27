@@ -1,0 +1,1 @@
+web: gunicorn mates.wsgi:application
