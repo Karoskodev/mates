@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-08f065*v+yh#l$vp+2nmrf#jcsrmfl4hzgb8rqt6v2!2*agobg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-karoskodev-mates-p2iz24bdqut.ws-eu108.gitpod.io', 'matesapp.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-karoskodev-mates-p2iz24bdqut.ws-eu108.gitpod.io', 'matesapp.herokuapp.com', 'localhost', 'matesapp-6452160599de.herokuapp.com']
 
 
 # Application definition
