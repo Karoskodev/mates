@@ -348,7 +348,7 @@ input[name='q']::placeholder {
         font-size: .9rem;
     }
 
-    .text-banner {
+    #text-baner {
         font-size: 2.2rem;
     }
 
