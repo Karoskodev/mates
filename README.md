@@ -48,22 +48,6 @@
 ### Models
 <br>
 
-#### User Profile Model
-
-| id | Field |
-|--|--|
-|user|OneToOneField|
-|user_image|imagefield|
-|user_title|charfield|
-|user_nickname|charfield|
-|phone_number|charfield|
-|street address1|charfield|
-|street address2|charfield|
-|county|charfield|
-|postcode|charfield|
-|town or city|charfield|
-|country|countryfield|
-
 
 #### Order Model
 
@@ -122,6 +106,23 @@
 |--|--|
 |name|CharField|
 |friendly_name|CharField|
+
+
+#### User Profile Model
+
+| id | Field |
+|--|--|
+|user|OneToOneField|
+|user_image|imagefield|
+|user_title|charfield|
+|user_nickname|charfield|
+|phone_number|charfield|
+|street address1|charfield|
+|street address2|charfield|
+|county|charfield|
+|postcode|charfield|
+|town or city|charfield|
+|country|countryfield|
 
 
 #### Post Model
@@ -363,6 +364,7 @@ Mobile Products Page:
 Product Detail Page:
 
 ![Mobile Products Page](media/readme/productdetail.png)
+</details>
 
 <details>
 <summary> Bag & Checkout Flow </summary>
@@ -379,3 +381,157 @@ The Bag & Checkout Flow aims to allow users to effortlessly add desired items to
 Upon the successful completion of payment, customers are automatically redirected to the payment success page. Here, they encounter a comprehensive summary of their order, ensuring a seamless and informative conclusion to the transaction process.
 
 </details>
+
+<details>
+<summary> Account Profile </summary>
+<br>
+
+The Profiles app has been crafted with user ease in mind, offering customers seamless post-order options. Users can effortlessly update their account information, modify their shipping address, or personalize their profile photo. 
+Customers can access their order confirmation details by clicking on the order number. 
+
+![Profile Page](media/readme/profilepage.png)
+
+![Profile update page](media/readme/profileupdate.png)
+
+</details>
+
+<details>
+<summary> Blog </summary>
+<br>
+
+The primary focus of our blog initiative is to bring captivating stories and articles designed to enhance also our Search Engine Optimization (SEO). By creating compelling and relevant content, we aim to boost our website's visibility, ensuring that it ranks favorably on search engine result pages. This approach not only attracts a wider audience but also establishes our platform as a valuable source of information in line with search engine algorithms.
+
+![Blog Page](media/readme/blogpage.jpg)
+
+![Post detail page](media/readme/postdetail.png)
+
+</details>
+
+<details>
+<summary> Contact Page </summary>
+<br>
+
+The contact form is structured as a model that efficiently transfers messages to the website's backend. In the future development phases, email notifications will be implemented, directing inquiries to the business email address. To expedite responses, a filtering mechanism will be integrated. For instance, if the selected contact reason is a complaint, the email will be routed to the designated complaints email address, ensuring a prompt and targeted response from the appropriate business representative.
+
+![Contact Page](media/readme/contactpage.png)
+
+
+
+</details>
+
+<details>
+<summary> Notifications </summary>
+<br>
+
+Throughout the application, notifications are seamlessly integrated to provide timely updates and alerts. These notifications serve as a crucial communication channel, ensuring users receive pertinent information and stay informed about relevant activities, events, or changes within the app. 
+
+![Notification](media/readme/message2.png)
+
+![Notification](media/readme/message1.png)
+
+![Notification](media/readme/message3.png)
+
+![Notification](media/readme/message4.png)
+
+![Notification](media/readme/message5.png)
+
+</details>
+
+<details>
+<summary> Superusers permisions </summary>
+<br>
+
+Upon logging in as a superuser, enhanced frontend permissions are granted, enabling the ability to edit, delete, and add products directly on the website. The edit and delete options are conveniently accessible on the products page, streamlining product management. Additionally, the option to add a new product is available within the product management section, accessible through the "My Account" dropdown. These exclusive privileges empower superusers with efficient control over product-related actions directly from the frontend interface.
+
+![Superuser](media/readme/superuser1.png)
+
+![Superuser](media/readme/superuser2.png)
+
+</details>
+
+[Back to Top of page](#contents)
+
+---
+
+<a name="left"></a>
+## Features left to Implement 
+
+#### Product Reviews Enhancement:
+
+Customers, upon logging in, will have the ability to leave reviews for products they have purchased. These reviews will contribute to the calculation of an average rating, providing a more authentic reflection of customer experiences. The system will then dynamically generate a star rating based on the calculated float figure, ensuring a more representative and insightful evaluation of product satisfaction.
+
+#### Order Tracking System:
+
+Advanced order tracking system can be introduced within the user profile section.Furthermore, to ensure timely communication, customers will also receive email notifications containing the latest tracking information, enhancing transparency and keeping them informed throughout the shipping process.
+
+#### Blog Engagement Features:
+
+To foster an interactive and engaging blog community, users will have the ability to express their sentiments through likes and comments on each blog post.
+
+[Back to Top of page](#contents)
+---
+
+<a name="tech"></a>
+##  Technology:
+
+### HTML:
+
+Utilized for structuring the website, providing the foundational framework.
+
+### CSS:
+
+Custom CSS code was extensively written to closely align with the wireframes, ensuring a visually cohesive design.
+
+### Font Awesome:
+
+Integrated icon library to enhance visual elements.
+
+### JavaScript:
+
+Implemented for timeout functions within messages and to enable dynamic functionalities, such as the menu on index.html.
+
+### Python:
+
+Employed for the logic and backend operations in this project.
+
+### Git:
+
+Employed for version control, ensuring a systematic and well-documented history of project development.
+
+### GitHub:
+
+Served as the version control repository for storing and managing the project's code, including the Kanban board for project completion.
+
+### Django:
+
+Framework chosen to construct the project. Offers a pre-installed admin panel and efficient template tags, enhancing code development.
+
+
+### Bootstrap 4:
+
+Utilized as the foundational frontend framework, working harmoniously with Django.
+
+
+### Heroku:
+
+Selected as the hosting and deployment platform for the project.
+
+### Heroku PostgreSQL:
+
+Used as the database solution during both development and production stages.
+
+
+### AWS S3 and IAM:
+
+Utilized for hosting static and media files, with IAM managing permissions and roles for accessing S3 buckets.
+
+### Django-Crispy-Forms:
+
+Integrated for styling forms within the project, enhancing the overall visual appeal.
+
+[Back to Top of page](#contents)
+
+---
+
+<a name="testing"></a>
+## Testing
