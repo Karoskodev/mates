@@ -9,6 +9,7 @@ class PostList(generic.ListView):
     template_name = 'blog/blog.html'
     paginate_by = 3
 
+
 class PostDetail(View):
 
     def get(self, request, slug, *args, **kwargs):
@@ -19,6 +20,6 @@ class PostDetail(View):
             request,
             "blog/post_detail.html",
             {
-                "post":post,
+                "post": post,
             }
         )

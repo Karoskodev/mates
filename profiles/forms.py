@@ -1,6 +1,7 @@
 from django import forms
 from .models import UserProfile
 
+
 class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
@@ -9,7 +10,7 @@ class UserProfileForm(forms.ModelForm):
             'user_title',
             'user_nickname',
             'user_image',
-        ) 
+        )
 
     def __init__(self, *args, **kwargs):
         """
@@ -25,7 +26,7 @@ class UserProfileForm(forms.ModelForm):
             'default_street_address2': 'Street Address 2',
             'default_county': 'County/State/Locality',
             'user_title': 'Title',
-            'user_image': 'Image' ,
+            'user_image': 'Image',
         }
 
         self.fields['default_phone_number'].widget.attrs['autofocus'] = True
@@ -41,7 +42,7 @@ class UserProfileForm(forms.ModelForm):
             if field == 'user_title':
                 self.fields[field].widget.attrs['tags'] = 'your_tags_for_user_title'
 
-            self.fields[field].label = False     
+            self.fields[field].label = False
 
 
 class UpdateUserForm(forms.ModelForm):
@@ -51,15 +52,15 @@ class UpdateUserForm(forms.ModelForm):
             'user_image',
             'user_title',
             'user_nickname',
-        ) 
+        )
 
     def __init__(self, *args, **kwargs):
-        
+
         super().__init__(*args, **kwargs)
         placeholders = {
             'user_title': 'Title',
-            'user_image': 'Image' ,
+            'user_image': 'Image',
         }
-        
+
         for field_name, placeholder in placeholders.items():
             self.fields[field_name].widget.attrs["placeholder"] = placeholder

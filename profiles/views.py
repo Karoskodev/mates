@@ -5,6 +5,7 @@ from .models import UserProfile
 from .forms import UserProfileForm, UpdateUserForm
 from checkout.models import Order
 
+
 @login_required
 def profile(request):
     """Display users profile"""
@@ -30,6 +31,7 @@ def profile(request):
 
     return render(request, template, context)
 
+
 def order_history(request, order_number):
     order = get_object_or_404(Order, order_number=order_number)
 
@@ -38,13 +40,14 @@ def order_history(request, order_number):
         'A conformation emal was sent on the order date'
     ))
 
-    template = 'checkout/checkout_success.html' 
+    template = 'checkout/checkout_success.html'
     context = {
         'order': order,
         'from_profile': True,
     }
 
-    return render(request,template, context)
+    return render(request, template, context)
+
 
 @login_required
 def update_profile(request):
@@ -54,7 +57,7 @@ def update_profile(request):
 
     if request.method == "POST":
         form = UpdateUserForm(request.POST, request.FILES, instance=profile,)
-        
+
         if form.is_valid():
             form.save()
             messages.success(request, "Profile updated successfully")
@@ -63,7 +66,7 @@ def update_profile(request):
             messages.error(request, "Update failed.")
     else:
         form = UpdateUserForm(instance=profile)
-        
+
     context = {
         "form": form,
     }

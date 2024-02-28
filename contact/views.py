@@ -2,6 +2,7 @@ from django.shortcuts import render, reverse, redirect
 from .forms import ContactForm
 from django.contrib import messages
 
+
 def contact_form(request):
     """ Contact form view """
 
@@ -18,7 +19,7 @@ def contact_form(request):
             return redirect(reverse("contact_form"))
         else:
             messages.error(request, "Failed to submit the form!")
-    
+
     context = {
         "form": form,
     }

@@ -7,6 +7,7 @@ from django_countries.fields import CountryField
 from products.models import Product
 from profiles.models import UserProfile
 
+
 class Order(models.Model):
 
     order_number = models.CharField(max_length=32, null=False, editable=False)
@@ -33,7 +34,6 @@ class Order(models.Model):
 
         return uuid.uuid4().hex.upper()
 
-
     def update_total(self):
         """
         Update grand totaleach time a line item is added,
@@ -47,8 +47,6 @@ class Order(models.Model):
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
 
-
-    
     def save(self, *args, **kwargs):
         """ Override original save method to set the order number if it hasnt been set already """
 

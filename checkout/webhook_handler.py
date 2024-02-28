@@ -33,7 +33,7 @@ class StripeWH_Handler:
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
-        ) 
+        )
 
     def handle_event(self, event):
         """
@@ -57,9 +57,9 @@ class StripeWH_Handler:
         intent.latest_charge
         )
 
-        billing_details = stripe_charge.billing_details # updated
+        billing_details = stripe_charge.billing_details  # updated
         shipping_details = intent.shipping
-        grand_total = round(stripe_charge.amount / 100, 2) # updated
+        grand_total = round(stripe_charge.amount / 100, 2)  # updated
 
         # Clean data in the shipping details
         for field, value in shipping_details.address.items():
@@ -128,14 +128,14 @@ class StripeWH_Handler:
                     )
                     for item_id, item_data in json.loads(bag).items():
                         product = Product.objects.get(id=item_id)
-                        
+
                         order_line_item = OrderLineItem(
                             order=order,
                             product=product,
                             quantity=item_data,
                         )
                         order_line_item.save()
-        
+
                 except Exception as e:
                     if order:
                         order.delete()
@@ -146,8 +146,6 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
             status=200)
-
-
 
     def handle_payment_intent_payment_failed(self, event):
         """

@@ -3,7 +3,6 @@ from .models import contact
 from django_summernote.admin import SummernoteModelAdmin
 
 
-
 @admin.register(contact)
 class ContactAdmin(SummernoteModelAdmin):
 

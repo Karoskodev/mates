@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
+
 class contact(models.Model):
 
     SUBJECT = [
