@@ -534,4 +534,51 @@ Integrated for styling forms within the project, enhancing the overall visual ap
 ---
 
 <a name="testing"></a>
+
 ## Testing
+
+### Manual Testing
+
+Please see a table of acronyms used throughout testing:
+
+| Key | Value |
+|--|--|
+|NLI|Non logged in user|
+|LIU|Logged in customer who does not have staff permissions.|
+|SUP|Superuser or staff permissions
+
+
+### Account Registration Tests:
+
+| Test |Result  |
+|--|--|
+|User can create an account | Pass |
+|Verified User can log into account| Pass|
+|User can log out of account|Pass|
+|User is notified of logging in to account|Pass|
+|User is notified of logging out of account|Pass|
+|User receives email verification email|Pass|
+
+---
+
+### User Navigation Tests
+
+| Test |Result  |
+|--|--|
+|User can navigate to product| Pass |
+|User can access product details| Pass|
+|User can add a product to cart|Pass|
+|User can navigate back to products|Pass|
+|User can add additional products to cart|Pass|
+|User can add multiple quantities of a product |Pass|
+|User can navigate to cart|Pass|
+|Logged in User can navigate to the profile section of accounts|Pass|
+|User can access their saved address information|Pass|
+|User can access past orders|Pass|
+|User can access the blog section of the page|Pass|
+|User can access specific blogs|Pass|
+|User can access the contact page with form|Pass|
+|All links on footer open to correct pages|Pass|
+|All links on Heading Navigation open to correct option|Pass|
+
+---
