@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://matesapp-6452160599de.herokuapp.com/sitemap.xml
