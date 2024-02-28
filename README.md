@@ -582,3 +582,53 @@ Please see a table of acronyms used throughout testing:
 |All links on Heading Navigation open to correct option|Pass|
 
 ---
+
+### Account Security Tests
+
+| Test |Result  |
+|--|--|
+|NLI cannot access profile page| Pass|
+|NLI cannot access admin panel|Pass|
+|NLI cannot access products management|Pass|
+|LIU cannot access admin panel|Pass|
+|LIU cannot access products management|Pass|
+|LIU cannot edit products|Pass|
+
+--- 
+
+### Profile Tests
+
+| Test |Result|
+|--|--|
+|NLI cannot access profile page | Pass |
+|LIU can access profile page|Pass|
+|LIU can see their details on the accounts home page|Pass|
+|LIU can navigate to change profile image|Pass|
+|LIU who does not have a personal image has the default image|Pass|
+|LIU can add an image to their profile|Pass|
+|LIU can change their profile image once they have one set |Pass|
+|LIU can update their title|Pass|
+|LIU can update their nickname|Pass|
+|LIU can update their email|Pass|
+|LIU can update their phone number|Pass|
+|LIU can navigate to their shipping information|Pass|
+|LIU can update street address 1 and 2|Pass|
+|LIU can update town or city|Pass|
+|LIU can update county|Pass|
+|LIU can update postcode|Pass|
+|LIU can update country|Pass|
+
+---
+
+### Admin Tests
+
+| Test |Result  |
+|--|--|
+|SUP can access add product page from my account dropdown|Pass|
+|SUP can see the edit product option on the products page|Pass|
+|SUP can see the delete option on the products page|Pass|
+|SUP can write blogs from the admin panel and publish them|Pass|
+|SUP can edit products and update all fields successfully|Pass|
+|SUP can delete products from the products page|Pass|
+
+---
