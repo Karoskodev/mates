@@ -10,7 +10,7 @@
 
 ## **[LIVE SITE](https://matesapp-6452160599de.herokuapp.com/) | [REPOSITORY](https://github.com/Karoskodev/mates)**
 
------
+---
 
 ## Table of contents
 <a name="contents">Back to Top</a>
@@ -44,7 +44,7 @@
 
  ![Lucid Diagram](media/readme/database.png)
 
- -----
+ ---
 ### Models
 <br>
 
@@ -202,13 +202,19 @@ Cons:
 3. Marketing Effort: Manual marketing or paid advertising is essential for gaining organic traffic.
 4. Trust Building: Absence of physical presence may make it challenging to build trust without discounts or offers.
 
+---
+
+#### Site User
+
 User 1:
 The typical site user is a chess enthusiast, male, aged between 10 and 80, interested in chess. They seek quality chess products to enhance their gaming experience.
 
 User 2:
 Additional users include partners of User 1, browsing for gifts catering to the chess interest.
 
-Goals for the Website:
+---
+
+#### Goals for the Website:
 
 User-Friendly Interface: Ensure an easy-to-navigate website with a clear purpose.
 Product Satisfaction: Provide products that meet user expectations.
@@ -216,3 +222,18 @@ Quick Checkout: Facilitate a seamless checkout process.
 User Profiles: Enable users to create profiles, view past orders, and update information.
 
 ---
+
+Marketing Strategy
+
+Goals:
+
+1. Facebook Promotion: Leverage the Facebook business page for store promotion.
+2. Social Network Sharing: Encourage friends and family to share the page, enhancing visibility.
+3. Soft Launch Sale: Initiate a soft online launch sale to stimulate early adoption and purchases.
+4. Subscriber Engagement: Use Mailchimp to gather subscribers and send promotions for repeat business.
+5. SEO Content: Develop meaningful articles and blog posts to enhance SEO ranking on search engines.
+6. Paid Advertising: Utilize platforms like Google Ads and Facebook Ads to reach the target demographic.
+7. Product-Centric Ads: Run multiple ads featuring different chess products, analyzing and focusing on high-performing ones.
+8. Influencer Collaboration: Consider promoting custom-made products through influencers in the chess niche, targeting those with at least 10k followers.
+9. By following this strategy, Mates Chess Eshop aims to establish itself as a go-to platform for chess enthusiasts, offering a seamless online shopping experience and valuable content to build a loyal customer base.
+
