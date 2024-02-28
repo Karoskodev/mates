@@ -286,11 +286,16 @@ input[name='q']::placeholder {
 #foot {
     background-color: rgba(29, 18, 12, 0.9);
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     color: white;
 }
 .text-center {
     text-align: center;
+}
+
+.play-chess {
+    color: rgb(255, 234, 202);
+    padding-top: 20px;
 }
 
 /* -------------------------------- Media Queries */
@@ -367,4 +372,12 @@ input[name='q']::placeholder {
         padding: .25rem .5rem !important;
     }
 
+}
+
+/* Mailchimp */
+#mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 75%;
+    padding-top: 1%;
 }
