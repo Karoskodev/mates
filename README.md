@@ -301,7 +301,7 @@ Progress was systematically tracked as tasks transitioned from the "not started"
 
 Feel free to navigate through the provided link to access the final project board:
 
-[GRIP Project Board](https://github.com/users/Karoskodev/projects/10)
+[Mates Project Board](https://github.com/users/Karoskodev/projects/10)
 
 #### Epics
 
@@ -315,3 +315,67 @@ Feel free to navigate through the provided link to access the final project boar
 Every Epic within the project is linked to 4 or more specific user stories. Each user story. The comprehensive breakdown of these user stories is readily available on the project board mentioned earlier.
 
 These user stories and epics were strategically planned from the project's inception. Following this meticulous planning, the project has been successfully executed in alignment with these predefined user stories and epics.
+
+---
+
+## Features
+
+<a name="features"></a>
+
+<details>
+<summary> Navigation </summary>
+<br>
+A navigation bar that signals if someone is logged in by displaying their name and profile picture.
+
+![Navbar Desktop](media/readme/navigation1.png)
+
+Mobile navigation:
+
+![Navbar Desktop](media/readme/navigation2.png)
+
+![Navbar Desktop](media/readme/navigation3.png)
+</details>
+
+<details>
+<summary> Authentication </summary>
+<br>
+
+The authentication procedures are facilitated through Allauth and have undergone customization to seamlessly align with the aesthetic theme of my website. Currently, upon user registration, a confirmation email is dispatched to the provided email address. Verification through this confirmation process is a prerequisite before users can gain access to their accounts.
+
+![Sign Up](media/readme/signup.png)
+
+![Login](media/readme/login.png)
+
+</details>
+
+<details>
+<summary> Products Page </summary>
+<br>
+
+The product page has been designed to be responsive, ensuring consistent and proportional spacing between products irrespective of the screen width.
+
+![Products Page](media/readme/productspage.png)
+
+Mobile Products Page:
+
+![Mobile Products Page](media/readme/mobileproducts.png)
+
+Product Detail Page:
+
+![Mobile Products Page](media/readme/productdetail.png)
+
+<details>
+<summary> Bag & Checkout Flow </summary>
+<br>
+
+The Bag & Checkout Flow aims to allow users to effortlessly add desired items to their shopping bag. Upon completion, users can proceed to the checkout, where they provide necessary details and confirm their order. The flow ensures a user-friendly experience, from product selection to the final confirmation, facilitating a smooth and efficient shopping journey.
+
+![Bag Page](media/readme/bagpage.png)
+
+![Checkout Page](media/readme/checkout.png)
+
+![Payment Success Page](media/readme/payment.png)
+  
+Upon the successful completion of payment, customers are automatically redirected to the payment success page. Here, they encounter a comprehensive summary of their order, ensuring a seamless and informative conclusion to the transaction process.
+
+</details>
