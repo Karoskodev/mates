@@ -15,7 +15,7 @@
 ## Table of contents
 <a name="contents">Back to Top</a>
  1. [ UX ](#ux)
- 2. [ Business Model ](#biz)
+ 2. [ Business Model ](#business)
  3. [ SEO ](#seo)
  4. [Agile Development](#agile)
  5. [ Features ](#features)  
@@ -148,3 +148,41 @@
 |email|EmailField|
 |message|TextField|
 |created_at|DateTimeField|
+
+
+## UX design
+
+### Wireframes
+
+<br>
+Main page:
+
+![Wireframe Index](media/readme/mainwireframe.png)
+<br>
+Products page:
+
+![Wireframe Index](media/readme/products.png)
+<br>
+Product Detail page:
+
+![Wireframe Index](media/readme/detail.png)
+<br>
+Shoping Bag page:
+
+![Wireframe Index](media/readme/bag.png)
+<br>
+Blog page:
+
+![Wireframe Index](media/readme/blog.png)
+<br>
+Contact form page:
+
+![Wireframe Index](media/readme/contact.png)
+<br>
+---
+
+## Business Model
+
+<a name="business"></a>
+
+#### Business Overview
