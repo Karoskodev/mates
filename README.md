@@ -223,7 +223,7 @@ User Profiles: Enable users to create profiles, view past orders, and update inf
 
 ---
 
-Marketing Strategy
+#### Marketing Strategy
 
 Goals:
 
@@ -237,3 +237,40 @@ Goals:
 8. Influencer Collaboration: Consider promoting custom-made products through influencers in the chess niche, targeting those with at least 10k followers.
 9. By following this strategy, Mates Chess Eshop aims to establish itself as a go-to platform for chess enthusiasts, offering a seamless online shopping experience and valuable content to build a loyal customer base.
 
+---
+
+# SEO
+
+<a name="seo"></a>
+
+### SEO Project planning
+
+As the decision to focus on a Mates store was made, comprehensive market research and keyword analysis became pivotal for effective online visibility. Here's an overview of the steps taken:
+1. Google Trends Utilization
+2. SEO Quake Tool
+3. Wordtracker.com
+4. A comprehensive list of carefully selected keywords was developed, considering factors such as search volume, competition, and relevance.
+5. The selected keywords were strategically incorporated into various elements of the website
+6. The content strategy focused on creating informative and engaging content related to chess
+
+By adopting a data-driven approach and leveraging various tools, Mates Eshop aimed to establish a robust online presence, attracting chess enthusiasts.
+
+### Keywords
+
+Handmade chess set, handmade chess pieces, handmade chess board, chess cabinet, wooden chess set, digital chess clock, analog chess clock, play chess
+
+### Sitemap.xml:
+A comprehensive sitemap has been generated for the website to facilitate efficient indexing by search engines like Google. This strategic move ensures that once the site is live, search engines can systematically navigate and index its content. The sitemap acts as a roadmap, enhancing the discoverability of various pages and improving overall search engine optimization.
+
+### Robots.txt:
+To guide the crawling behavior of search engine bots, a robots.txt file has been meticulously crafted. In this file, specific directives have been set to optimize the crawling process. Notably, pages within the accounts app have been excluded from crawling, as they do not contribute to the site's search engine visibility.
+
+### Facebook Business Page
+
+To view the facebook business page you can click on the link below:
+
+[Facebook Business Page](https://www.facebook.com/profile.php?id=61556545065240)
+
+In case the page becomes inactive or deactivated by Facebook I have taken screenshots to display here also:
+
+![FB Business page overview](media/readme/facebook.jpg)
