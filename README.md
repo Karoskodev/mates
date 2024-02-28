@@ -35,7 +35,7 @@
  <a name="ux"></a>
  ### Color pallete
 
- I tried to stick with the color scheme reminiscent of the chessboard, chess, chess pieces and wood.
+ I tried to stick with the colors reminiscent of the chessboard, chess pieces and wood.
  <br>
  
  ![Color](media/readme/color.jpg)
@@ -186,3 +186,33 @@ Contact form page:
 <a name="business"></a>
 
 #### Business Overview
+Mates Chess Eshop is a B2C e-commerce platform specializing in chess-related products, aiming to provide high-quality chess sets, boards, and accessories to customers worldwide through an online store.
+
+Benefits for the Business Owner:
+1. Scalability: Easily expand the business as it grows.
+2. No Physical Location: No need for a brick-and-mortar store, allowing for global reach.
+3. Global Targeting: Cater to customers worldwide, targeting chess enthusiasts.
+4. Niche Branding: Focus on a specific niche, building a brand that resonates with chess players.
+5. Low Startup Cost: Begin with a relatively low initial investment, allocating more budget to customer acquisition and marketing.
+6. Impulse Buying: The lower price point encourages impulse purchases from customers.
+
+Cons:
+1. Initial Customer Acquisition: Overcoming industry saturation to attract initial customers.
+2. Brand Establishment: Building a brand from scratch requires time and a solid marketing strategy.
+3. Marketing Effort: Manual marketing or paid advertising is essential for gaining organic traffic.
+4. Trust Building: Absence of physical presence may make it challenging to build trust without discounts or offers.
+
+User 1:
+The typical site user is a chess enthusiast, male, aged between 10 and 80, interested in chess. They seek quality chess products to enhance their gaming experience.
+
+User 2:
+Additional users include partners of User 1, browsing for gifts catering to the chess interest.
+
+Goals for the Website:
+
+User-Friendly Interface: Ensure an easy-to-navigate website with a clear purpose.
+Product Satisfaction: Provide products that meet user expectations.
+Quick Checkout: Facilitate a seamless checkout process.
+User Profiles: Enable users to create profiles, view past orders, and update information.
+
+---
