@@ -149,6 +149,7 @@
 |message|TextField|
 |created_at|DateTimeField|
 
+[Back to Top of page](#contents)
 
 ## UX design
 
@@ -179,6 +180,9 @@ Contact form page:
 
 ![Wireframe Index](media/readme/contact.png)
 <br>
+
+[Back to Top of page](#contents)
+
 ---
 
 ## Business Model
@@ -237,9 +241,11 @@ Goals:
 8. Influencer Collaboration: Consider promoting custom-made products through influencers in the chess niche, targeting those with at least 10k followers.
 9. By following this strategy, Mates Chess Eshop aims to establish itself as a go-to platform for chess enthusiasts, offering a seamless online shopping experience and valuable content to build a loyal customer base.
 
+[Back to Top of page](#contents)
+
 ---
 
-# SEO
+## SEO
 
 <a name="seo"></a>
 
@@ -274,3 +280,38 @@ To view the facebook business page you can click on the link below:
 In case the page becomes inactive or deactivated by Facebook I have taken screenshots to display here also:
 
 ![FB Business page overview](media/readme/facebook.jpg)
+
+[Back to Top of page](#contents)
+
+---
+
+## Agile Development
+
+<a name="agile"></a>
+
+### Agile Overview
+
+Upon conceptualizing the website, my first step was to initiate a meticulous preplanning phase. I established a dedicated GitHub projects page, serving as a dynamic hub to meticulously track the epics, user stories, and tasks essential for the project's execution.
+
+This proactive approach not only provided a roadmap for the entire project but also afforded me insights into the anticipated timeline. This strategic move enabled me to adeptly manage my workload, ensuring efficiency and timely progress.
+
+Progress was systematically tracked as tasks transitioned from the "not started" phase to "in progress" and ultimately to "completed" as each milestone was achieved. Embracing an agile methodology, I remained flexible to adapt to any unforeseen challenges or discover new tasks and subtasks along the way.
+
+### Github Project Board
+
+Feel free to navigate through the provided link to access the final project board:
+
+[GRIP Project Board](https://github.com/users/Karoskodev/projects/10)
+
+#### Epics
+
+1. [Epic: Registration and User Accounts](https://github.com/Karoskodev/mates/issues/6)
+2. [Epic: Navigation and Viewing](https://github.com/Karoskodev/mates/issues/1)
+3. [Epic: Sorting and Searching](https://github.com/Karoskodev/mates/issues/11)
+4. [Epic: Purchasing and Checkout](https://github.com/RockyPraxe/GRIP/issues/27)
+5. [Epic: Admin and Store Management](https://github.com/Karoskodev/mates/issues/21)
+6. [Epic: Blog ](https://github.com/Karoskodev/mates/issues/26)
+
+Every Epic within the project is linked to 4 or more specific user stories. Each user story. The comprehensive breakdown of these user stories is readily available on the project board mentioned earlier.
+
+These user stories and epics were strategically planned from the project's inception. Following this meticulous planning, the project has been successfully executed in alignment with these predefined user stories and epics.
