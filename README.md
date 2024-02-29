@@ -678,13 +678,8 @@ Please see a table of acronyms used throughout testing:
 
 ---
 
-
-
 ## W3 HTML Validation 
-
   
-
-
 <details>
   <summary>index.html</summary>
   <br>
