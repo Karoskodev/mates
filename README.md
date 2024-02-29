@@ -740,7 +740,7 @@ This application is deployed with Heroku.
 1.  Visit Heroku and login
 2.  Click on New and then choose New App.
 3.  Choose a name for your app and then choose your region.
-4. Ideally select the region closest to you
+4.  Ideally select the region closest to you
 5.  Then press 'Create app'.
   
 </details>
@@ -755,10 +755,10 @@ This application is deployed with Heroku.
 3. Choose a name and plan. Then click on select region. 
 4. Select the closest Data Center to you
 5. Click on "Create Instance".
-6.  Go back to the start page and click on your new database.
-7.  Copy the URL for the database.
+6. Go back to the start page and click on your new database.
+7. Copy the URL for the database.
   
- </details>
+</details>
 
 
 Go back to Heroku and click on the settings tab of your application.
@@ -829,10 +829,6 @@ Click on open app at the top of the page to view your deployed app.
 
 ### Clone project
 
-<details>
-  <summary>How to clone of the repository:</summary>
-  <br>
-
 1.  Click on the code tab under the repository name.
 2.  Then click on "Code" button to the right above the files listed.
 3.  Click on the clipboard icon to copy the URL.
@@ -848,6 +844,49 @@ Click on open app at the top of the page to view your deployed app.
 13. To run the project type  `python manage.py runserver` into the terminal and open port 8000.
 14. This will open the project locally for you to work on.
   
-  </details>
+---
+
+#### Forking the repository on GitHub
+
+The steps to fork this repository are:
+
+ 1. Login to github and find the respitory  [here](https://github.com/Karoskodev/mates)
+ 2. Under your profile photo on the right hand side you will see the fork button.
+ 3. Click the fork button and github will create a copy to your account.
+
+
+[Back to Top of page](#contents)
 
 ---
+
+<a name="content"></a>
+## Content & Resources
+  
+##### Code Institute
+  - Course content for portfolio project 5 helped greatly in being able to complete this project.
+  - I found the walkthroughs informative and well paced.
+  - Initial structure based heavily on the CI walkthrough until I got more comfortable with the framework and started to make it my own.
+  - Some legacy code regarding nav remains.
+
+##### Django Documentation
+  - Read through the django documentation multiple times when trying to implement models and other content.
+  
+##### W3 Schools
+  - Used for reference throughout for simple css examples.
+  
+
+[Back to Top of page](#contents)
+
+---
+
+## Credits
+
+### Allan
+Special thanks to Tutor Allan for his valuable guidance, support, and contributions throughout the development of this project.
+
+### Code Institute Slack Community
+This project would not have been the same without the valuable contributions, and support from members of our Slack community. Enthusiasm and collaborative spirit have created an environment of shared learning and growth.
+THANK YOU!
+
+---
+[Back to Top of page](#contents)
