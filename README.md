@@ -632,3 +632,77 @@ Please see a table of acronyms used throughout testing:
 |SUP can delete products from the products page|Pass|
 
 ---
+
+### Payment Tests
+
+| Test |Result  |
+|--|--|
+|NLI can successfully make a payment & order| Pass |
+|LIU can successfully make a payment & order| Pass|
+|If payment is successful user will be redirected to order success page|Pass|
+|If order fails due to incorrect information being submitted order will not be submitted|Pass|
+
+---
+
+## Google Lighthouse Testing
+
+
+<details>
+  <summary>Index.html</summary>
+  <br>
+
+![Google Lighthouse Index](media/readme/lighthouse1.jpg)
+  
+  </details>
+
+---
+
+
+<details>
+  <summary>Profile.html</summary>
+  <br>
+
+![Google Lighthouse Profile](media/readme/lighthouse4.png)
+  
+  </details>
+
+---
+
+<details>
+  <summary>Contact.html</summary>
+  <br>
+
+![Google Lighthouse Contact](media/readme/lighthouse3.png)
+  
+  </details>
+
+---
+
+
+
+## W3 HTML Validation 
+
+  
+
+
+<details>
+  <summary>index.html</summary>
+  <br>
+
+![W3 HTML Validation](media/readme/indexerrors.png)
+  
+  </details>
+
+---
+
+<details>
+  <summary>profile.html</summary>
+  <br>
+
+![W3 HTML Validation](media/readme/profileerrors.png)
+  
+  </details>
+
+---
+
+#### Result: This project uses Django as its web framework, and the HTML templates incorporate Django template tags (`{% ... %}`). When using HTML validators or checkers, we encounter warnings and errors related to Django-specific syntax. I was informed that these warnings can be safely ignored, as the Django template engine processes these tags during runtime.
