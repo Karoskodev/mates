@@ -70,7 +70,7 @@ body {
 }
 
 .border-black {
-    border: 1px solid rgba(29, 18, 12, 0.9)ck !important;
+    border: 1px solid rgba(29, 18, 12, 0.9)!important;
 }
 
 .bg-black {
@@ -191,7 +191,6 @@ input[name='q']::placeholder {
     overflow-x: hidden;
     overflow-y: auto;
 }
-
 
 
 /* Allauth */

@@ -700,4 +700,30 @@ Please see a table of acronyms used throughout testing:
 
 ---
 
-#### Result: This project uses Django as its web framework, and the HTML templates incorporate Django template tags (`{% ... %}`). When using HTML validators or checkers, we encounter warnings and errors related to Django-specific syntax. I was informed that these warnings can be safely ignored, as the Django template engine processes these tags during runtime.
+#### Result: 
+
+This project uses Django as its web framework, and the HTML templates incorporate Django template tags (`{% ... %}`). When using HTML validators or checkers, we encounter warnings and errors related to Django-specific syntax. I was informed that these warnings can be safely ignored, as the Django template engine processes these tags during runtime.
+
+
+## CSS Validation
+
+### W3 CSS Jigsaw Screenshot
+  
+![w3 Jigsaw CSS checker](media/readme//csstest.png)
+
+#### Result: No Errors
+
+[Back to Top of page](#contents)
+
+---
+
+<a name="bugs"></a>
+
+## Bugs
+
+### Responsive bug in Chrome DevTools
+
+When testing responsiveness in Chrome Developer Tools, i have noticed a bug where the displayed layout doesn't match the real layout. Elements appear misaligned or overlap, causing confusion during development.Soved with using multiple mobile devices.
+
+---
+
