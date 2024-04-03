@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-karoskodev-mates-p2iz24bdqut.ws-eu108.gitpod.io', 'matesapp.herokuapp.com', 'localhost', 'matesapp-6452160599de.herokuapp.com']
+ALLOWED_HOSTS = ['8000-karoskodev-mates-p2iz24bdqut.ws-eu108.gitpod.io', 'matesapp.herokuapp.com', 'localhost', 'matesapp-6452160599de.herokuapp.com','8000-karoskodev-mates-p2iz24bdqut.ws-eu110.gitpod.io']
 
 
 # Application definition
