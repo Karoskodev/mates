@@ -30,7 +30,7 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
     path('blog/', include('blog.urls')),
     path('contact/', include('contact.urls')),
-    path('giveaway/', include('giveaway.urls')),
+    path('give/', include('give.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'mates.views.handler404'
