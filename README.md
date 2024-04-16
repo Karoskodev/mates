@@ -125,6 +125,17 @@
 |country|countryfield|
 
 
+#### Contact Model
+
+
+| id | Field |
+|--|--|
+|subject|CharField|
+|email|EmailField|
+|message|TextField|
+|created_at|DateTimeField|
+
+
 #### Post Model
 
 
@@ -139,15 +150,13 @@
 |status|IntegerField|
 
 
-
-#### Contact Model
+#### Giveaway Model
 
 
 | id | Field |
 |--|--|
-|subject|CharField|
+|answer|CharField|
 |email|EmailField|
-|message|TextField|
 |created_at|DateTimeField|
 
 [Back to Top of page](#contents)
