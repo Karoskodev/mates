@@ -14,6 +14,7 @@ class GiveawayForm(forms.ModelForm):
         placeholders = {
             'answer':'Answer',
             'email': 'Email',
+            'rank': 'Rank',
         }
 
         self.fields['email'].widget.attrs['autofocus'] = True
