@@ -13,7 +13,6 @@ class GiveawayForm(forms.ModelForm):
         super().__init__(*args, **kwargs)
         placeholders = {
             'answer':'Answer',
-            'rating':'Rating',
             'email': 'Email',
         }
 
