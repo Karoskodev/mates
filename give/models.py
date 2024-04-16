@@ -10,8 +10,7 @@ class giveaway(models.Model):
     ]
 
     answer = models.CharField(max_length=20, choices=ANSWER)
-    rating = models.IntegerField(help_text="Chess rating (ELO rating)")
-    email = models.EmailField()
+    email = models.EmailField(unique=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
