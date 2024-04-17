@@ -6,4 +6,4 @@ from django_summernote.admin import SummernoteModelAdmin
 @admin.register(giveaway)
 class ContactAdmin(SummernoteModelAdmin):
 
-    list_display = ('created_at', 'email', 'answer')
+    list_display = ('created_at', 'email', 'answer', 'rating')
